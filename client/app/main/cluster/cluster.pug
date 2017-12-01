@@ -1,0 +1,19 @@
+.container
+    .row
+        .col-lg-6
+            botton.btn.btn-default(style="margin:10px 0px") Crear Nuevo           
+            .libro 
+                p 
+                    strong Titulo 
+                    span {{$clusterComponent.libro.titulo}}
+                p   
+                    strong Autor 
+                    span {{$clusterComponent.libro.autor}} 
+                p   
+                    strong Año 
+                    span {{$clusterComponent.libro.anio}}
+                botton.btn.btn-default Editar                
+                botton.btn.btn-default Eliminar
+
+            br 
+
